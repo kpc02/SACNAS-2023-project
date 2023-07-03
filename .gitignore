@@ -2,5 +2,7 @@ __pycache__/
 *.png
 .ipynb_checkpoints/
 *.csv
-!data/*/
+!data/
+!data/*
 *.json
+token.txt

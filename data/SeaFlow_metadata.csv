@@ -1,0 +1,123 @@
+cruise,Cruise ID,Project,R2R doi,Location,Year,Month,Day Of Year,Instrument,Ship,Operator,S3,Realtime DB,Discrete samples,Beads,Metadata,Filtration,Gating,Curation,Zenodo,Database size (Gb),References,Comments
+CMOP_1,W0903A,CMOP,10.7284/900616,Columbia River,2009,May,,740,R/V Wecoma,Swalwell - Ribalet,,,,"
+",,,,,,,,"this has no sds.tab file, will need to get data"
+Thompson_0,TN243,H2O,10.7284/904001,Puget Sound,2009,November,,740,R/V Thomas G Thompson,Swalwell - Ribalet,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,,Ribalet et al. 2011,"Little/no Pro.  ""Croco"" is probably cryptophytes."
+CMOP_3,W1005A,CMOP,10.7284/904064,Columbia River,2010,May,141 - 147,740,R/V Wecoma,Ribalet,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,LAT/LON missing for nearly 400 points; no PAR; > 30 files in SFL not in EVT dir
+Thompson_1,TN248,-,10.7284/904006,Gulf of Alaska,2010,May,,740,R/V Thomas G Thompson,Swalwell,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,0.4,Pavlesky et al. 2013; Hyrkas et al. 2016,NO DATA IN R2R FOR THIS CRUISE; some lat missing; no PAR available; event rate = -1
+Thompson_2,TN250,-,10.7284/904008,Bering Sea,2010,June,,740,R/V Thomas G Thompson,OTG,,,,,,,,,,,,bad seaflow data
+CMOP_4,CMOP_4,CMOP,,Columbia River,2010,July,211,740,SATURN-03,,,,,,,,,,,,,Pilot project to test instrument
+Thompson_3,TN252,-,10.7284/904069,OR-WA coast,2010,July,,740,R/V Thomas G Thompson,OTG,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,FALSE,,,"Large gaps in FSC that may or may not be remedied by multi-location filtration. Beads not visible for most of the cruise. Some data look good, but much of the cruise is difficult to interpret."
+Thompson_4,TN257,-,10.7284/904013,Seattle - Hawaii,2010,November,,740,R/V Thomas G Thompson,Ribalet - Swalwell,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,,Ribalet et al. 2015,D2 PMT too low; Large Qc and diameter; multiple bead locations
+Thompson_5,TN260,-,10.7284/102414,Hawaii,2011,January,,740,R/V Thomas G Thompson,OTG,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,,Swalwell et al. 2011,2 FSC settings; Large Qc and diameter
+Thompson_6,TN264,-,10.7284/904018,OR-WA coast,2011,May,,740,R/V Thomas G Thompson,OTG,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,
+Thompson_6b,TN265,-,10.7284/904019,OR-WA coast,2011,June,,740,R/V Thomas G Thompson,OTG,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,,,troncated D1 and D2
+Tokyo_1,Tokyo_1,-,,North Pacific,2011,May,136 - 150,751,M/V Tokyo,,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,,,CHL gain too low to see Prochlorococcus; check where longitude switches from E to W; no PAR; no event rate; beads move and many cytograms have no beads; double Syn populations near coast (high phycocyanin?)
+Tokyo_2,Tokyo_2,-,,North Pacific,2011,July,178 - 191,751,M/V Tokyo,,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,,,TRIGGER likely too high to see smallest Prochlorococcus; crosses IDL--check longitude; no PAR; no event rate; PE sometime too low to distinguish Syn
+Thompson_7,TN268,-,10.7284/904068,OR-WA coast,2011,August,,740,R/V Thomas G Thompson,,TRUE,,FALSE,TRUE,,,,,,,,truncated D1 and D2
+MBARI_1,CN11ID,CalCoFI line 67,,California current,2011,October,,989,R/V Western Flyer,Ribalet - Swalwell,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,8.1,Ribalet et al. 2015,high event rates (76% files > 18000 evt / sec)
+Thompson_8,TN270,-,10.7284/102776,Puget Sound,2011,October,,740,R/V Thomas G Thompson,,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,,,troncated D1 and D2
+Thompson_9,TN271,Carbon Nitrate,10.7284/904027,Seattle - Hawaii,2011,October,,740,R/V Thomas G Thompson,Ribalet - Swalwell,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,1.6,Ribalet et al. 2015,"CALIBRATED evt, troncated D1 and D2"
+Tokyo_3,Tokyo_3,Tokyo,,North Pacific,2011,October,262 - 275,751,M/V Tokyo,,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,,"Stream pressure is NOT around 12; crosses IDL--check longitude; file write errors for sds files in ""position"" column insert extra carriage returns; no PAR; double Syn populations near coast (high phycocyanin?)"
+Tokyo_4,Tokyo_4,-,,North Pacific,2012,January,031 - 037,751,M/V Tokyo,,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,,"Stream pressure < 5; at end of cruise picoeuks are abnormally high and Pro is low. Given location, the low Pro and low pe of Syn may be due to a change in instrument settings."
+Tokyo_5,Tokyo_5,-,,North Pacific,2012,April,121 - 134,751,M/V Tokyo,,TRUE,FALSE,FALSE,TRUE,,,,,FALSE,,,No LAT/LON
+Thompson_10,TN280,GeoMICS,10.7284/903017,WA coast - Puget Sound,2012,May,,740,R/V Thomas G Thompson,Ribalet - Swalwell,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,0.8,,fixed gaps in lat/lon coords
+Tokyo_6,Tokyo_6,-,,North Pacific,2012,July ,206 - 219,751,M/V Tokyo,,TRUE,FALSE,FALSE,TRUE,,,,,,,,No LAT/LON
+MBARI_2,CN12ID,CalCoFI line 67,,California current,2012,September,,989,R/V Western Flyer,Ribalet,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,3.9,,
+Thompson_11,TN291,-,10.7284/904038,WA coast - Puget Sound,2013,January,,740,R/V Thomas G Thompson,Ribalet,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,,,
+Thompson_12,TN292,Transit,10.7284/904039,Seattle - Hawaii,2013,March,,740,R/V Thomas G Thompson,Ribalet - Swalwell,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,3.9,,no PAR data in the underway files from R2R
+DeepDOM,KN210-04,DeepDOM,10.7284/900547,South Atlantic,2013,March ,,989,R/V Knorr,Hennon,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,75,Howard et al. 2017,
+CMOP_5,CMOP_5,CMOP,,Columbia River,2013,June,166 - 179,989,SATURN-03,,,,,,,,,,,,,Pilot project to test instrument; no navigation data; duplicate filenames
+KiloMoana_1,KM1314,-,10.7284/902962,Seattle - Hawaii,2013,August,,740,R/V Kilo Moana,Tuck,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,,Heal et al. 2017,D2 PMT too low; 3 fsc settings
+CMOP_6,CMOP_6,CMOP,,Columbia River,2013,September,252 - 275,989,SATURN-03,Morales - Swalwell - Ribalet,TRUE,FALSE,FALSE,TRUE,,,,,,,Hamilton et al. 2017,saturating beads signal; no navigation data
+MBARI_3,CN13ID,CalCoFI line 67,,California current,2013,October,,989,R/V Western Flyer,Swalwell,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,10,,not consistent beads fsc signal?
+MV1405,MV1405,-,10.7284/904099,California current,2014,July,,740,R/V Melville,Clayton,,,,,,,,,,,,low quality seaflow data
+SCOPE_1,KM1427,C-MORE,10.7284/904735,Aloha,2014,December,342-346,740,R/V Kilo Moana,Swalwell,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,2.7,,"Initially misidentified as HOT-268, which was a few days later (KM1428). This was Dan Repeta's cruise to collect natural radiocarbon samples."
+SCOPE_2,KM1502,HOE-Legacy 1,10.7284/901803,Portland - Hawaii,2015,March,,740,R/V Kilo Moana,Ribalet,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,8.4,,
+SCOPE_3,KM1508,HOT-272,10.7284/901823,Aloha,2015,May,,740,R/V Kilo Moana,SCOPEOps,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6.2,,
+SCOPE_4,KM1510,HOT-273,10.7284/906351,Aloha,2015,June,,740,R/V Kilo Moana,SCOPEOps,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,4,,gap in SeaFlow data due to high event rates
+SCOPE_5,KM1512,HOT-274,10.7284/906353,Aloha,2015,July,,740,R/V Kilo Moana,SCOPEOps,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,3.5,,
+SCOPE_6,KM1513,HOE-Legacy 2A,10.7284/906354,Aloha,2015,July,,740,R/V Kilo Moana,Ribalet,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,13,Wilson et al. 2017,
+SCOPE_7_DLM,,HOE-Legacy 2A,10.7284/906354,Aloha,2015,July,,751,R/V Kilo Moana,Ribalet,,,,,,,,,,,,Incubation experiments
+SCOPE_9,KOK1512,HOT-276,10.7284/906366,Aloha,2015,September,,751,R/V Kaimikai O Kanaloa,SCOPEOps,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,1,,"SeaFlow computer not set to GMT. Storm - few data points; Ship left Sept 24, returned Sept 24 (KOK1511), and departed again Sept 26, returning Sept 28 (KOK1512). SFL missing some LAT/LON and other data but navigation and tsg data not available from HOT site. "
+SCOPE_10,KOK1515,HOT-277,10.7284/906369,Aloha,2015,October,,751,R/V Kaimikai O Kanaloa,SCOPEOps,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,1,,SeaFlow computer not set to GMT.
+SCOPE_11,KM1518,HOT-278,10.7284/906359,Aloha,2015,November,,740,R/V Kilo Moana,SCOPEOps,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,4.6,,
+SCOPE_12,KM1601,HOT-280,10.7284/906869,Aloha,2016,January,,740,R/V Kilo Moana,SCOPEOps,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,6.1,,
+SCOPE_13,KM1602,HOT-281,10.7284/906870,Aloha,2016,February,,740,R/V Kilo Moana,SCOPEOps,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,5.1,,
+SCOPE_14,KM1603,HOT-282,10.7284/906871,Aloha,2016,March,,740,R/V Kilo Moana,SCOPEOps,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,2.2,,few data points
+SCOPE_15,KOK1604,HOT-283,10.7284/906878,Aloha,2016,April,,751,R/V Kaimikai O Kanaloa,SCOPEOps,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,2.1,,SeaFlow computer not set to GMT; HOT cruise report lists this as KOK1604 but R2R calls it KOK1605.
+SCOPE_16,KOK1606,Gradients 2016,10.7284/906879,Subtropical front,2016,April,,751,R/V Kaimikai O Kanaloa,Ribalet,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,3.6,Gradoville et al. 2020,
+SCOPE_17,KOK1607,HOE-Legacy 4,10.7284/906880,Aloha,2016,May,,751,R/V Kaimikai O Kanaloa,SCOPEOps,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,0.5,,
+SCOPE_18,KOK1608,HOT-285,10.7284/907475,Aloha,2016,July,,751,R/V Kaimikai O Kanaloa,SCOPEOps,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,1.2,,"abrupt change in cell abundance, but not seemed to be associated with instrument settings; bead changes location"
+SCOPE_19,KOK1609,HOT-286,10.7284/907476,Aloha,2016,August,,751,R/V Kaimikai O Kanaloa,SCOPEOps,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,1.3,,
+SCOPE_20,SKQ201615S,HOT-288,10.7284/907442,Aloha,2016,November,,751,R/V Sikuliaq,SCOPEOps,,,,,,,,,,,,DATA LOST
+MGL1704,MGL1704,Gradients 2017,10.7284/907661,Subtropical front,2017,May,,751,R/V Langseth,SCOPEOps,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,8.3,Gradoville et al. 2020,No PAR for first few days
+HOT-294,KM1708,HOT-294,10.7284/907521,Aloha,2017,June,170- 174,751,R/V Kilo Moana,SCOPEOps,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,1.8,,
+MESO_SCOPE,KM1709,MesoSCOPE,10.7284/907522,Aloha,2017,July,,751,R/V Kilo Moana,SCOPEOps,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,16,Henderikx et al. 2020,
+KM1712,KM1712,CDISK-IV,10.7284/907827,Hawaii - Alaska,2017,August,,751,R/V Kilo Moana,Dugenne,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,18,,"pressure sensor not working; strange bead-like signature--same fsc, high PE; Croco NOT gated"
+KM1713,KM1713,Diurnal Productivity,10.7284/907828,Alaska - Hawaii,2017,September,,751,R/V Kilo Moana,Dugenne,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,18,,"pressure sensor not working; strange bead-like signature--same fsc, high PE; Croco NOT gated"
+HOT297,KM1717,HOT-297,10.7284/907658,Aloha,2017,November,311 - 315,751,R/V Kilo Moana,SCOPEOps,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,,Pressure sensor not working; Lots of Crocosphaera; about 40 opp files under transit are junk
+HOT299,KM1802,HOT-299,10.7284/908024,Aloha,2018,January,016 - 019,751,R/V Kilo Moana,SCOPEOps,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,,"Conductivity, salinity, and temperature mixed up in sfl--fixed using thermosalinograph data"
+HOT300,KM1805,HOT-300,10.7284/908113,Aloha,2018,February,055 - 059,751,R/V Kilo Moana,SCOPEOps,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,,,"2 FCS settings; Very few beads; Conductivity, salinity, and temperature mixed up in sfl--fixed using thermosalinograph data"
+SCOPE_Falkor1,FK180310-1,SCOPE-Falkor1,10.7284/907948,Hawaii,2018,March,070 -082,751,R/V Falkor,SCOPEOps,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,15,,"pressure sensor not working; strange bead-like signature--same fsc, high PE; bead coordinates shift"
+SCOPE_Falkor2,FK180310-2,SCOPE-Falkor2,10.7284/907948,Hawaii,2018,March,087 - 100,751,R/V Falkor,SCOPEOps,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,15,,"pressure sensor not working; strange bead-like signature--same fsc, high PE"
+HOT301,KOK1801,HOT-301,10.7284/908041,Aloha,2018,April,106 - 110,751,R/V Kaimikai O Kanaloa,SCOPEOps,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,,pressure sensor not working; fill in S and T from thermosalinograph data; bead doublets form multiple clouds; Bead coordinates appear to change
+HOT302,KOK1803,HOT-302,10.7284/908043,Aloha,2018,May,134 - 138,751,R/V Kaimikai O Kanaloa,SCOPEOps,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,,pressure sensor not working; fill in S and T from thermosalinograph data
+HOT303,KOK1804,HOT-303,10.7284/908044,Aloha,2018,June,176 - 180,751,R/V Kaimikai O Kanaloa,SCOPEOps,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,,Lots of crocosphaera in transit but not on station; possible small croco population between Syn and beeds on pe vs chl
+KOK1805,KOK1805,Kilauea-RAPID,10.7284/908045,Hawaii,2018,July,188 - 194,751,R/V Kaimikai O Kanaloa,SCOPEOps,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,,,Few beads for many timepoints. Chief sci could not locate PAR data
+KOK1806,KOK1806,LAVA,10.7284/908046,Hawaii,2018,July,194 - 198,751,R/V Kaimikai O Kanaloa,SCOPEOps,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,3.6,Wilson et al. 2019,Double check when 740 and 751 were swapped in Hawaii
+HOT304,KOK1807,HOT-304,10.7284/908047,Aloha,2018,July,204 - 208,751,R/V Kaimikai O Kanaloa,SCOPEOps,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,,Beads are few but present; wall of particles at high fsc
+HOT307,KM1821,HOT-307,,Aloha,2018,November,319 - 323,740,R/V Kilo Moana,SCOPEOps,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,,Prochlorococcus are on edge of detection
+HOT308,KM1823,HOT-308,,Aloha,2018,December,344 - 346,740,R/V Kilo Moana,SCOPEOps,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,,Extra short cruise
+GP15_1,RR1814,GEOTRACES,10.7284/908061,Seattle - Hilo,2018,October,257 - 294,751,R/V Roger Revelle,Einarsson,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,,,Poor data quality (bad focuse); Bad pump; PAR data way too high
+GP15_2,RR1815,GEOTRACES,10.7284/908063,Hilo - Papeete,2018,November,298 - 328,751,R/V Roger Revelle,Einarsson,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,,,"Pump replaced! Stream moving  A LOT (storm) Strange ""loaf of bread"" population near Equatorial upwelling; SFL metadata stuck on single value during Oct 29 - 30 and replaced with values from shipboard met file"
+HOT309,KM1901,HOT-309,10.7284/908117,Aloha,2019,January,014 - 018,740,R/V Kilo Moana,SCOPEOps,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,,
+HOT310,KM1903,HOT-310,10.7284/908234,Aloha,2019,February,049 - 052,740,R/V Kilo Moana,SCOPEOps,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,,Event rates are mostly < 5000
+KM1906,KM1906,Gradients 2019,10.7284/908236,Subtropical front,2019,April,100 - 119,740,R/V Kilo Moana,Hynes,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,,"SFL files have extra null character/eol character; T, S and C are swapped; heading saved as PAR"
+KM1906_towfish,KM1906-tf,Gradients 2019,,Subtropical front,2019,April,,751,R/V Kilo Moana,Hynes,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,,,"From TowFish.  Difficult to keep D1/D2 within acceptable range; SFL files have extra null character/eol character; T, S and C are swapped; heading saved as PAR"
+HOT312,KM1909,HOT-312,10.7284/908258,Aloha,2019,June,161 - 165,740,R/V Kilo Moana,SCOPEOps,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,,EVT data missing from first 2 days; SFL files have extra null character/eol character; TSG data not yet available--variable swap in SFL; beads are few and sporadic
+HOT313,KM1912,HOT-313,10.7284/908384,Aloha,2019,July,181 - 185,740,R/V Kilo Moana,SCOPEOps,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,,EVT files abnormally small; SFL file extra null/eol characters and variable swap ; few if any beads
+HOT314,KM1915,HOT-314,10.7284/908387,Aloha,2019,August,214 - 217,740,R/V Kilo Moana,SCOPEOps,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,,EVT files abnormally small; SFL file extra null/eol characters and variable swap; SCOPEops reported that laser was drifting and frequently had to be aligned 3-4 clicks up and 1-2 clicks right every 6 hours; Synechococcus oddly flat w/r/t chl
+HOT315,KM1917,HOT-315,10.7284/908383,Aloha,2019,September,246 - 250,740,R/V Kilo Moana,,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,,Laser behaving normally but camera occasionally failing; low event rates 
+KM1919,KM1919,Rocap,10.7284/908382,San Diego - Manzanillo,2019,September,264 - 273,751,R/V Kilo Moana,Kellogg,TRUE,FALSE,FALSE,TRUE,,,,,,,,Aquarium pump used for waste malfunctioned
+KM1920,KM1920,Rocap,10.7284/908379,Manzanillo - San Diego,2019,October,274 - 295,751,R/V Kilo Moana,Kellogg,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,,,Peristaltic pump used for waste; clogging issues
+SR1917,SR1917,PaCMAHN,10.7284/908343,Guam - San Francisco,2019,November,310 - 332,751,R/V Sally Ride,Tabata,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,,Early days have laser out-of-focus to compensate for D1/D2
+KM1923_751,KM1923_751,SeaFlow testing,10.7284/908277,Papeete - Honolulu,2019,December,341 - 350,751,R/V Kilo Moana,Swalwell,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,,,Beads move; laser spot not quite right--will come home for maintenance; underway data starts 2 - 2.5 hours after SeaFlow data
+KM1923_740,KM1923_740,SeaFlow testing,10.7284/908277,Papeete - Honolulu,2019,December,341 - 350,740v2,R/V Kilo Moana,Swalwell,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,,New laser!  Underway data starts 2 - 2.5 hours after SeaFlow data; Two fsc positions for beads
+HOT317,KM1924,HOT-317,10.7284/908363,Aloha,2019,December,352 - 355,740v2,R/V Kilo Moana,SCOPEOps,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,,Beads streaky at times and huge shift in fsc mid-cruise
+HOT318,KM2001,HOT-318,10.7284/908352,Aloha,2020,January,6 - 10,740v2,R/V Kilo Moana,SCOPEOps,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,,TS and geo data captured by Chris don't cover first 48 - 52 timepoints. 2 beads settings?
+HOT319,KM2002,HOT-319,10.7284/908355,Aloha,2020,February,29 - 33,740v2,R/V Kilo Moana,SCOPEOps,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,,
+HOT320,KM2007,HOT-320,10.7284/908702,Aloha,2020,July,195 - 201,740v2,R/V Kilo Moana,SCOPEOps,,,,,,,,,,,,Couldn't get laser aligned.  Determined to be a dirty lens.
+HOT321,KM2009,HOT-321,10.7284/908792,Aloha,2020,August,219 - 224,740v2,R/V Kilo Moana,SCOPEOps,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,,No underway data capture; obtained nav and tsg from R2R but PAR not available
+HOT322,KM2010,HOT-322,10.7284/908949,Aloha,2020,August,241 - 250,740v2,R/V Kilo Moana,SCOPEOps,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,,Environmental data missing for first half of cruise; cruise also passes Kauai/Niihau
+HOT323,KM2011,HOT-323,10.7284/908817,Aloha,2020,September,269 - 274,740v2,R/V Kilo Moana,SCOPEOps,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,,
+HOT324,KM2013,HOT-324,10.7284/908826,Aloha,2020,November,322 - 327,740v2,R/V Kilo Moana,SCOPEOps,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,,
+HOT325,KM2014,HOT-325,10.7284/908844,Aloha,2020,December,352 - 356,740v2,R/V Kilo Moana,SCOPEOps,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,,Bead position changed. Ops had trouble with pulsing stream at beginning. Laser out of focus for part of cruise.
+HOT326,KM2101,HOT-326,10.7284/908872,Aloha,2021,January,11 - 15,740v2,R/V Kilo Moana,SCOPEOps,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,,Beads still in changed position; 740v2 shipped to Seattle after cruise and leaking found above nozzle
+HOT328,KM2103,HOT-328,10.7284/909025,Aloha,2021,March,81 - 85,740v2,R/V Kilo Moana,SCOPEOps,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,,,
+HOT329,KM2104,HOT-329,10.7284/909041,Aloha,2021,April,102 - 106,740v2,R/V Kilo Moana,SCOPEOps,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,,,
+HOT330,KM2105,HOT-330,10.7284/909123,Aloha,2021,May,135 - 139,740v2,R/V Kilo Moana,SCOPEOps,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,,,
+HOT331,KM2109,HOT-331,10.7284/909138,Aloha,2021,June,172 - 176,740v2,R/V Kilo Moana,SCOPEOps,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,,,PAR not available
+HOT332,KM2111,HOT-332,10.7284/909150,Aloha,2021,July,196 - 200,740v2,R/V Kilo Moana,SCOPEOps,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,,,PAR not available
+SCOPE-PARAGON,KM2112,SCOPE-PARAGON,10.7284/909151,Aloha,2021,July,202 -216,740v2,R/V Kilo Moana,SCOPEOps,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,,
+RR2106,RR2106,Plume Raiders,10.7284/909271,South East Pacific Rise,2021,September,258 - 307,751v2,R/V Roger Revelle,Vecchione/Monreal,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,Instrument fell off bench during a swell
+TN396_740,TN396,STEMSEAS,10.7284/909454,Seattle - San Diego,2021,November,315 - 320,740v2,R/V Thomas G Thompson,Swalwell,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,,,
+TN396_130,TN396,STEMSEAS,10.7284/909454,Seattle - San Diego,2021,November,315 - 320,130,R/V Thomas G Thompson,Cain,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,,,
+TN397_130,TN397,Gradients 2021,10.7284/909455,San Diego - Honolulu,2021,November,322 - 349,130,R/V Thomas G Thompson,Cain,TRUE,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,,,
+TN397_740,TN397,Gradients 2021,10.7284/909455,San Diego - Honolulu,2021,November,322 - 349,740v2,R/V Thomas G Thompson,Cain,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,,
+TN398,TN398,UW Senior Cruise,10.7284/909456,Honolulu - San Diego,2021,December,352 - 364,740v2,R/V Thomas G Thompson,Cain,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,,
+HOT335,KM2204,HOT-335,10.7284/909510,Aloha,2022,March,84 - 89,740v2,R/V Kilo Moana,SCOPEOps,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,Correct time zone confirmed. No nav or TSG data in sfl.  Filled from SAMOS and licor data but last day LAT/LON missing and no conductivity throughout.
+HOT336,KM2205,HOT-336,10.7284/909562,Aloha,2022,May,145 - 149,740v2,R/V Kilo Moana,SCOPEOps,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,,,"SeaFlow computer set to central time zone at beginning of cruise, affecting first 45 minutes.  These lines were removed from the SFL when low salinity indicated fresh water in the lines.  Salinity may be from the wrong time stamp, but the first 45 minutes were between Honolulu and Station KAHE, and would not be missed. No nav or TSG data in sfl.  Filled from captured underway data and SAMOS.  Some gaps in conductivity and PAR.  "
+KM2206_740,KM2206,NCNF (Non-Cyano Nitrogen Fixation),10.7284/909563,10S,2022,June,157 - 186,740v2,R/V Kilo Moana,Cain,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,,,Huge shifts in syn and pico abundance.
+KM2206_130,KM2206,NCNF (Non-Cyano Nitrogen Fixation),10.7284/909563,10S,2022,June,157 - 186,130,R/V Kilo Moana,Cain,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,,,
+HOT337,KM2207,HOT-337,10.7284/909733,Aloha,2022,July,189 - 193,740v2,R/V Kilo Moana,SCOPEOps,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,No nav or TSG data in sfl.  Filled from captured underway data but there is still missing data from the first hour.  SAMOS data not yet available.
+HOT338,KM2211,HOT-338,,Aloha,2022,August,210 - 214,740v2,R/V Kilo Moana,SCOPEOps,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,,,No nav or TSG data in sfl.  
+SCOPE-PARAGONII,KM2212,SCOPE-PARAGON II,,Aloha,2022,August,216 -230,740v2,R/V Kilo Moana,SCOPEOps,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,,,No nav or TSG data in sfl; filled in later.  Some hours have high amount of saturated fsc.
+TN412_740,TN412,Gradients 2023,,San Diego - Honolulu,2023,January,022 - 049,740v2,R/V Thomas G Thompson,"Cain, Qi",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,
+TN412_130,TN412,Gradients 2023,,San Diego - Honolulu,2023,January,022 - 049,130,R/V Thomas G Thompson,"Cain, Qi",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,
+TN413,TN413,UW Senior Cruise,,Honolulu - Fiji,2023,February,055 - 071,130,R/V Thomas G Thompson,"Cain, Ribalet",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,
+TN414,TN414,Transit,,Fiji - New Zealand,2023,March,,130,R/V Thomas G Thompson,Swalwell?,,,,,,,,,,,,
+HOT341,KM23??,HOT-341,,Aloha,2023,March,,,R/V Kilo Moana,SCOPEOps,,,,,,,,,,,,
+TN416,TN416,Transit,,New Zealand - Taiwan,2023,April,,130,R/V Thomas G Thompson,,,,,,,,,,,,,
+HOT342,,HOT-342,,Aloha,2023,May,,,,,,,,,,,,,,,,
+TN418,TN418,Transit,,"Guam - Newport, OR",2023,June,,130,R/V Thomas G Thompson,,,,,,,,,,,,,
+TN424,TN424,Transit,,Seattle - Honolulu,2023,November,,130,R/V Thomas G Thompson,,,,,,,,,,,,,
