@@ -142,9 +142,9 @@ sfl_daily <- sfl_daily %>% group_by(cruise) %>%
 
 # Plot in-situ vs sat PAR
 sfl_daily %>% ggplot(aes(DATE, PAR)) +
-                geom_point(aes(colour = "red"),size=2, alpha = 0.5, col = 2)  + 
-                geom_point(aes(DATE, sat_PAR, colour = "blue"), alpha = 0.5) +
-                geom_point(aes(DATE, PAR * correction,colour = "black") , col = 3, alpha = 0.5) +
+                geom_point(aes(color = "red"),size=2, alpha = 0.5, col = 2)  + 
+                geom_point(aes(DATE, sat_PAR, colour = "black"), alpha = 0.5, col =1) +
+                geom_point(aes(DATE, PAR * correction,colour = "green") , col = 3, alpha = 0.5) +
                 labs(x="time", y="Uncalibrated PAR") +
                 theme_bw() + 
                 facet_wrap(~ cruise, scales="free_x")
