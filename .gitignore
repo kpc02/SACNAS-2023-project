@@ -7,3 +7,7 @@ __pycache__/
 *.json
 token.txt
 .Rproj.user
+.DS_Store
+.RData
+.Rhistory
+
