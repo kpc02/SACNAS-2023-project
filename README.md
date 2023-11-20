@@ -8,6 +8,7 @@ Kristine Prado-Casillas (kristinepc02@gmail.com), Katherine Qi (University of Wa
 R, Python 3.6+, Anaconda, Jupyter Notebook, Bash
 ## Installation
 Clone this repository into your current working directory:
+
 Create a conda environment from SACNAS-2023-project:
 ## Workflow
 ## Status
