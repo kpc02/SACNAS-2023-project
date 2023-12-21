@@ -8,8 +8,15 @@ Kristine Prado-Casillas (kristinepc02@gmail.com), Katherine Qi (University of Wa
 R, Python 3.6+, Anaconda, Jupyter Notebook, Bash
 ## Installation
 Clone this repository into your current working directory:
+```
+git clone https://github.com/kpc02/SACNAS-2023-project.git
+```
 
 Create a conda environment from SACNAS-2023-project:
+```
+conda env create -f SACNAS_env.yml
+```
 ## Workflow
+See current workflow diagram
 ## Status
 As of October 28th, this complete version for Gradients 4 (TN397) was completed over Summer 2023 in preperation for the 2023 NDiSTEM conference hosted by SACNAS.
