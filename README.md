@@ -17,6 +17,6 @@ Create a conda environment from SACNAS-2023-project:
 conda env create -f SACNAS_env.yml
 ```
 ## Workflow
-See current workflow diagram
+See [current workflow diagram](https://github.com/kpc02/SACNAS-2023-project/blob/main/SACNAS%202023%20project%20workflow.pdf) 
 ## Status
 As of October 28th, this complete version for Gradients 4 (TN397) was completed over Summer 2023 in preperation for the 2023 NDiSTEM conference hosted by SACNAS.
